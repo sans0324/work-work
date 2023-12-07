@@ -18,7 +18,7 @@ int main() {
 		}
 
 	}
-	printf("변환된 결과 ==> %s\n",str);
+	printf("a changed result ==> %s\n",str);
 
 	return 0;
 	
