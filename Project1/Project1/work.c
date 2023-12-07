@@ -16,6 +16,13 @@ int main() {
 		return 1;
 	}
 
+	str[strcspn(str, "\n")] = '\0';
+
+	if (strlen(str) == MAX_LENGTH - 1 && str[MAX_LENGTH - 2] != '\n') {
+		printf("Input is too long.\n");
+		return 1;
+	}
+
 	printf("기존 문자와 새로운 문자를 입력 :");
 	scanf("%c %c0",&ch1,&ch2);
 
