@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
+#define MAX_LENGTH 100
 
 int main() {
 	char str[100];
