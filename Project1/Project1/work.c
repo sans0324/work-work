@@ -6,7 +6,7 @@ int main() {
 	char str[100];
 	char ch1, ch2;
 	int i;
-	printf("여러 글자를 입력 : ");
+	printf("Enter multiple characters : ");
 	gets(str);
 
 	printf("기존 문자와 새로운 문자를 입력 :");
