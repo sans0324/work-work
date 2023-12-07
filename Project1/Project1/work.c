@@ -11,6 +11,11 @@ int main() {
 	printf("여러 글자를 입력 : ");
 	gets(str);
 
+	if (fgets(str, sizeof(str), stdin) == NULL) {
+		printf("Error reading input.\n");
+		return 1;
+	}
+
 	printf("기존 문자와 새로운 문자를 입력 :");
 	scanf("%c %c0",&ch1,&ch2);
 
