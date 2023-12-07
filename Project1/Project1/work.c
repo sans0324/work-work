@@ -23,7 +23,10 @@ int main() {
 	}
 
 	printf("기존 문자와 새로운 문자를 입력 :");
-	scanf("%c %c0",&ch1,&ch2);
+	if (scanf(" %c %c", &ch1, &ch2) != 2) {
+		printf("Error reading characters.\n");
+		return 1;
+	}
 
 	for (i = 0; i < strlen(str); i++) {
 		if (str[i] == ch1) {
