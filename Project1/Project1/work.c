@@ -6,10 +6,10 @@ int main() {
 	char str[100];
 	char ch1, ch2;
 	int i;
-	printf("Enter multiple characters : ");
+	printf("여러 글자를 입력 : ");
 	gets(str);
 
-	printf("Enter existing and new characters :");
+	printf("기존 문자와 새로운 문자를 입력 :");
 	scanf("%c %c0",&ch1,&ch2);
 
 	for (i = 0; i < strlen(str); i++) {
@@ -18,7 +18,7 @@ int main() {
 		}
 
 	}
-	printf("a changed result ==> %s\n",str);
+	printf("변환된 결과 ==> %s\n",str);
 
 	return 0;
 	
