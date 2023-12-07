@@ -4,6 +4,7 @@
 #define MAX_LENGTH 100
 
 int main() {
+	char str[MAX_LENGTH];
 	char str[100];
 	char ch1, ch2;
 	int i;
