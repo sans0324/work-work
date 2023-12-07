@@ -18,6 +18,6 @@ int main() {
 		}
 
 	}
-	printf("변환된 결과 : ");
+	printf("변환된 결과 ==> %s\n",str);
 	
 }
